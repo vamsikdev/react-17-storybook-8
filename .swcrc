@@ -1,0 +1,29 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true,
+      "dynamicImport": true,
+      "privateMethod": false,
+      "functionBind": false,
+      "exportDefaultFrom": false,
+      "exportNamespaceFrom": false,
+      "decorators": true,
+      "decoratorsBeforeExport": true,
+      "topLevelAwait": false,
+      "importMeta": false
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "loose": false,
+    "externalHelpers": false,
+    "keepClassNames": false
+  },
+  "env": {
+    "targets": "since 2021 and supports flexbox-gap and supports css-revert-value or chrome >= 84, edge >= 84, firefox >= 74, safari >= 14.1"
+  }
+}
